@@ -61,14 +61,16 @@
         {{--</ul>--}}
     {{--</nav>--}}
 {{--</header>--}}
-<header class="main-header">
+<header class="header">
     <div class="pull-left">
-        <img  class="main-logo"src="photos/logo.png" alt="TeleKing">
-        <a class="header-button teleking-button" href="#">Bekijk de top-sellers</a>
+        <div class="header-brand">
+            <img  class="main-logo"src="{{asset('photos/logo.png')}}" alt="TeleKing">
+            <a class="teleking-button" href="#">Bekijk de top-sellers</a>
+        </div>
     </div>
     <div class="pull-right">
-        <nav>
-            <ul class="nav-ul">
+        <nav class="primary-nav">
+            <ul>
                 <li> <a href="">Home</a> </li>
                 <li> <a href="catlisting?alias=simonly">Sim-Only</a> </li>
                 <li> <a href="catlisting?alias=simonly">Toestellen en Abonnementen</a> </li>
