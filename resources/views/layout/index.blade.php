@@ -7,13 +7,7 @@
 
     <main>
         <section>
-            <div class="home-hero">
-                <div class="row">
-                    <div class="">
-                        <h2>dkjfkdjfdkj</h2>
-                    </div>
-                </div>
-            </div>
+
         </section>
     </main>
 

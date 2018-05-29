@@ -1,8 +1,8 @@
 .container-full {
   margin-right: auto;
-  margin-left: auto;
+  margin-left: auto;/*
   padding-right: 2rem;
-  padding-left: 2rem;
+  padding-left: 2rem;*/
 }
 
 .row {
@@ -18,9 +18,9 @@
   -webkit-box-direction: normal;
   flex-direction: row;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+  flex-wrap: wrap;/*
   margin-right: -1rem;
-  margin-left: -1rem;
+  margin-left: -1rem;*/
 }
 
 .col-m,
