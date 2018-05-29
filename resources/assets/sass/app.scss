@@ -4,9 +4,16 @@
 @import "variables";
 
 // Bootstrap
+@import '~bootstrap/scss/bootstrap';
 
 //global
 @import "common/global";
+
+// npm
+@import '~@fortawesome/fontawesome-free-webfonts/scss/fa-brands';
+@import '~@fortawesome/fontawesome-free-webfonts/scss/fa-regular';
+@import '~@fortawesome/fontawesome-free-webfonts/scss/fa-solid';
+@import '~@fortawesome/fontawesome-free-webfonts/scss/fontawesome';
 
 //components
 @import 'components/index';
@@ -14,3 +21,4 @@
 //assets
 @import 'assets/header';
 @import 'assets/footer';
+@import 'assets/grid';

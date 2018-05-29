@@ -6,7 +6,9 @@
     @include ('layout.partials.header')
 
     <main>
-        <h1>test</h1>
+        <section>
+
+        </section>
     </main>
 
     {{--footer--}}

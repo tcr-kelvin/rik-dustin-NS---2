@@ -1,7 +1,26 @@
-<header>
-    <div class="logo-container">
-        <img src="https://photos-4.dropbox.com/t/2/AADZOXNtsZYIw8Gz63Uo6vm3CbdAGg8HlrVNpl0ZJl_OFA/12/158100610/png/32x32/1/_/1/2/logo.png/ELjj4ngYgKcHIAcoBw/WpSuSBJK4oKT__3KwOLwmvUimyo7FI6Mp84uC-IAOt4?preserve_transparency=1&size=1600x1200&size_mode=3" alt="TeleKing">
-    </div>
+<!DOCTYPE html>
+<html lang="{{ app()->getLocale() }}">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+
+    <title>{{ config('app.name', 'Laravel') }}</title>
+
+    <!-- Scripts -->
+    <script src="{{ asset('js/app.js') }}" defer></script>
+
+    <!-- Fonts -->
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600" rel="stylesheet" type="text/css">
+
+    <!-- Styles -->
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+</head>
+<body>
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
             <div class="container">
@@ -47,17 +66,10 @@
                 </div>
             </div>
         </nav>
-    <nav>
-        <ul class="top-ul">
-            <li class="top-li"><a href="/">Home</a></li>
-            <li class="top-li"><a href="toestellen">Toestellen</a></li>
-            <li class="top-li"><a href="abonnementen">Abonnementen</a>
-                <ul class="in-ul">
-                    <li class="in-li"><a href="sim-only">Sim-Only</a></li>
-                    <li class="in-li"><a href="abonnement-toestel">Met toestel</a></li>
-                </ul>
-            </li>
-            <li class="top-li"><a href="support">Support & FAQ</a></li>
-        </ul>
-    </nav>
-</header>
+
+        <main class="py-4">
+            @yield('content')
+        </main>
+    </div>
+</body>
+</html>
