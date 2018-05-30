@@ -18,7 +18,12 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('layout.about');
 });
-
+Route::get('/content', function () {
+    return view('layout.content');
+});
+Route::get('/catlisting', function () {
+    return view('layout.catlisting');
+});
 Auth::routes();
 
 /*Route::get('/home', 'HomeController@index')->name('home');*/
