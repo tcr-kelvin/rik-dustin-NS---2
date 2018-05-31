@@ -24,17 +24,13 @@ Route::get('/content', function () {
 Route::get('/catlisting', function () {
     return view('layout.catlisting');
 });
-<<<<<<< HEAD
 
 Route::resource('user', 'UserController');
 
 
 
 
-=======
->>>>>>> Dustin
 Auth::routes();
-
 
 /*Route::get('/home', 'HomeController@index')->name('home');*/
 
@@ -50,8 +46,7 @@ Route::group(['middleware' => ['web', 'auth']], function (){
         }
         else {
             $users['users'] = \App\User::all();
-            $products = DB::table('products')->get();
-            return view ('/adminhome', compact('users','products'));
+            return view ('/adminhome', $users);
         }
     });
 });

@@ -1,4 +1,5 @@
 @extends('layout.app')
+
 @section('content')
     <div class="container-full">
         <div class="row justify-content-center">
@@ -17,35 +18,7 @@
                         </div>
                     </div>
                 </div>
-
-        </div>
-            <table class="admin-table">
-                <tbody>
-                    <tr>
-                        <td>id</td>
-                        <td>name</td>
-                        <td>description</td>
-                        <td>imagepath</td>
-                        <td>price</td>
-                        <td>created at</td>
-                        <td>updated at</td>
-                    </tr>
-                    @foreach($products as $product)
-                        <tr>
-                            <td>{{$product->id}}</td>
-                            <td>{{$product->name}}</td>
-                            <td>{{substr($product->description,0,100).'...'}}</td>
-                            <td><img style="width:100px;"src=" {{$product->imagepath}}" alt="{{$product->name}}"></td>
-                            <td>{{$product->price}}</td>
-                            <td>{{$product->created_at}}</td>
-                            <td>{{$product->updated_at}}</td>
-                        </tr>
-                    @endforeach
-
-                </tbody>
-
-            </table>
-
+            </div>
         </div>
         <div class="row justify-content-center">
             <div class="column-m-10">
@@ -88,5 +61,4 @@
             </div>
         </div>
     </div>
-
 @endsection
