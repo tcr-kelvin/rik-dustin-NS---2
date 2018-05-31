@@ -24,6 +24,12 @@ Route::get('/content', function () {
 Route::get('/catlisting', function () {
     return view('layout.catlisting');
 });
+
+Route::resource('user', 'UserController');
+
+
+
+
 Auth::routes();
 
 /*Route::get('/home', 'HomeController@index')->name('home');*/
@@ -44,3 +50,4 @@ Route::group(['middleware' => ['web', 'auth']], function (){
         }
     });
 });
+

@@ -3,7 +3,7 @@
 @section('content')
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-md-8">
+            <div class="col-md-12">
                 <div class="card">
                     <div class="card-header">Dashboard</div>
 
@@ -16,41 +16,49 @@
                         <div class="alert alert-success">
                             <p>You are logged in as admin</p>
                         </div>
-                            <table class="pull-left admin-table">
-                                <tbody>
-                                <tr>
-                                    <td class="bold">id</td>
-                                    <td class="bold">name</td>
-                                    <td class="bold">email</td>
-                                    <td class="bold">update</td>
-                                    <td class="bold">delete</td>
-                                </tr>
-                                <tr>
-                                    <td>1</td>
-                                    <td>Dustin</td>
-                                    <td>info@duckerdie.com</td>
-                                    <td> <button class="table-button" type="button" name="button">update</button> </td>
-                                    <td> <button class="table-button" type="button" name="button">delete</button> </td>
-                                </tr>
-                                <tr>
-                                    <td>2</td>
-                                    <td>Rik</td>
-                                    <td>rik@gmail.com</td>
-                                    <td> <button class="table-button" type="button" name="button">update</button> </td>
-                                    <td> <button class="table-button" type="button" name="button">delete</button> </td>
-                                </tr>
-                                <tr>
-                                    <td>3</td>
-                                    <td>Annas</td>
-                                    <td>annas@hotmail.com</td>
-                                    <td> <button class="table-button" type="button" name="button">update</button> </td>
-                                    <td> <button class="table-button" type="button" name="button">delete</button> </td>
-                                </tr>
-                                </tbody>
-                            </table>
+
+
                     </div>
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="column-m-12">
+                <h2>user grud</h2>
+            </div>
+        </div>
+        <table class="table table-bordered">
+            <tr>
+                <th style="width: 80px"></th>
+                <th>name</th>
+                <th>mail</th>
+                <th>password</th>
+                <th style="width: 140px">
+                    <a href="{{route('user.create')}}" class="btn btn-succes btn-sm">
+                        <i class="fas fa-plus"></i>
+                    </a>
+                </th>
+            </tr>
+            <?php $no = 1; ?>
+            @foreach($users as $key => $value)
+                <tr>
+                    <td>{{$no++}}</td>
+                    <td>{{ $value->name }}</td>
+                    <td>{{ $value->email }}</td>
+                    <td>***</td>
+                    <td>
+                        <a href="{{route('user.show', $value->id)}}" class="btn btn-info btn-sm">
+                            <i href="" class="fas fa-search"> </i>
+                        </a>
+                        <a href="{{route('user.edit', $value->id)}}" class="btn btn-primary btn-sm">
+                            <i href="" class="fas fa-pencil-alt"> </i>
+                        </a>
+                        {!! Form::open(['method' => 'DELETE','route' => ['user.destroy', $value->id],'style'=>'display:inline']) !!}
+                        <button type="submit" style="display: inline;" class="btn btn-danger btn-sm"><i class="fas fa-trash-alt"></i></button>
+                        {!! Form::close() !!}
+                    </td>
+                </tr>
+            @endforeach
+        </table>
     </div>
 @endsection
