@@ -35,7 +35,7 @@
                             <td>{{$product->id}}</td>
                             <td>{{$product->name}}</td>
                             <td>{{substr($product->description,0,100).'...'}}</td>
-                            <td>{{$product->imagepath}}</td>
+                            <td><img style="width:100px;"src=" {{$product->imagepath}}" alt="{{$product->name}}"></td>
                             <td>{{$product->price}}</td>
                             <td>{{$product->created_at}}</td>
                             <td>{{$product->updated_at}}</td>
