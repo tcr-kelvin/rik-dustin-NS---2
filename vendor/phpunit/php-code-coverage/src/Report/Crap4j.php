@@ -117,7 +117,7 @@ final class Crap4j
         $buffer = $document->saveXML();
 
         if ($target !== null) {
-            if (!$this->createDirectory(\dirname($target))) {
+            if (!@\mkdir(\dirname($target), 0777, true) && !\is_dir(\dirname($target))) {
                 throw new \RuntimeException(\sprintf('Directory "%s" was not created', \dirname($target)));
             }
 
@@ -161,10 +161,5 @@ final class Crap4j
     private function roundValue($value): float
     {
         return \round($value, 2);
-    }
-
-    private function createDirectory(string $directory): bool
-    {
-        return !(!\is_dir($directory) && !@\mkdir($directory, 0777, true) && !\is_dir($directory));
     }
 }

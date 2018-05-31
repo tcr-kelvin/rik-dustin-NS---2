@@ -10,9 +10,6 @@
 
 namespace SebastianBergmann\CodeCoverage;
 
-require __DIR__ . '/../_files/BankAccount.php';
-require __DIR__ . '/../_files/BankAccountTest.php';
-
 use SebastianBergmann\CodeCoverage\Driver\Driver;
 use SebastianBergmann\CodeCoverage\Driver\PHPDBG;
 use SebastianBergmann\CodeCoverage\Driver\Xdebug;
@@ -218,7 +215,7 @@ class CodeCoverageTest extends TestCase
         $coverage = $this->getCoverageForBankAccount();
 
         $this->assertEquals(
-            $this->getExpectedDataArrayForBankAccount(),
+            $this->getExpectedDataArrayForBankAccount2(),
             $coverage->getData()
         );
 
@@ -244,17 +241,6 @@ class CodeCoverageTest extends TestCase
         );
     }
 
-    public function testMergeReverseOrder()
-    {
-        $coverage = $this->getCoverageForBankAccountForLastTwoTests();
-        $coverage->merge($this->getCoverageForBankAccountForFirstTwoTests());
-
-        $this->assertEquals(
-            $this->getExpectedDataArrayForBankAccountInReverseOrder(),
-            $coverage->getData()
-        );
-    }
-
     public function testMerge2()
     {
         $coverage = new CodeCoverage(
@@ -265,7 +251,7 @@ class CodeCoverageTest extends TestCase
         $coverage->merge($this->getCoverageForBankAccount());
 
         $this->assertEquals(
-            $this->getExpectedDataArrayForBankAccount(),
+            $this->getExpectedDataArrayForBankAccount2(),
             $coverage->getData()
         );
     }

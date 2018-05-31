@@ -1,8 +1,5 @@
 --TEST--
 https://github.com/sebastianbergmann/phpunit-mock-objects/issues/397
---SKIPIF--
-<?php
-if (!version_compare(PHP_VERSION, '7.1', '>=')) print 'skip: PHP >= 7.1 required';
 --FILE--
 <?php
 class C
@@ -40,24 +37,24 @@ class MockC extends C implements PHPUnit\Framework\MockObject\MockObject
 
     public function m(?C $other): C
     {
-        $__phpunit_arguments = [$other];
-        $__phpunit_count     = func_num_args();
+        $arguments = [$other];
+        $count     = func_num_args();
 
-        if ($__phpunit_count > 1) {
-            $__phpunit_arguments_tmp = func_get_args();
+        if ($count > 1) {
+            $_arguments = func_get_args();
 
-            for ($__phpunit_i = 1; $__phpunit_i < $__phpunit_count; $__phpunit_i++) {
-                $__phpunit_arguments[] = $__phpunit_arguments_tmp[$__phpunit_i];
+            for ($i = 1; $i < $count; $i++) {
+                $arguments[] = $_arguments[$i];
             }
         }
 
-        $__phpunit_result = $this->__phpunit_getInvocationMocker()->invoke(
+        $result = $this->__phpunit_getInvocationMocker()->invoke(
             new \PHPUnit\Framework\MockObject\Invocation\ObjectInvocation(
-                'C', 'm', $__phpunit_arguments, 'C', $this, true
+                'C', 'm', $arguments, 'C', $this, true
             )
         );
 
-        return $__phpunit_result;
+        return $result;
     }
 
     public function expects(\PHPUnit\Framework\MockObject\Matcher\Invocation $matcher)

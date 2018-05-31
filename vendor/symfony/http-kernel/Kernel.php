@@ -63,15 +63,15 @@ abstract class Kernel implements KernelInterface, RebootableInterface, Terminabl
     private $requestStackSize = 0;
     private $resetServices = false;
 
-    const VERSION = '4.1.0';
-    const VERSION_ID = 40100;
+    const VERSION = '4.0.10';
+    const VERSION_ID = 40010;
     const MAJOR_VERSION = 4;
-    const MINOR_VERSION = 1;
-    const RELEASE_VERSION = 0;
+    const MINOR_VERSION = 0;
+    const RELEASE_VERSION = 10;
     const EXTRA_VERSION = '';
 
-    const END_OF_MAINTENANCE = '01/2019';
-    const END_OF_LIFE = '07/2019';
+    const END_OF_MAINTENANCE = '07/2018';
+    const END_OF_LIFE = '01/2019';
 
     public function __construct(string $environment, bool $debug)
     {
@@ -79,10 +79,18 @@ abstract class Kernel implements KernelInterface, RebootableInterface, Terminabl
         $this->debug = $debug;
         $this->rootDir = $this->getRootDir();
         $this->name = $this->getName();
+
+        if ($this->debug) {
+            $this->startTime = microtime(true);
+        }
     }
 
     public function __clone()
     {
+        if ($this->debug) {
+            $this->startTime = microtime(true);
+        }
+
         $this->booted = false;
         $this->container = null;
         $this->requestStackSize = 0;
@@ -100,15 +108,9 @@ abstract class Kernel implements KernelInterface, RebootableInterface, Terminabl
                     $this->container->get('services_resetter')->reset();
                 }
                 $this->resetServices = false;
-                if ($this->debug) {
-                    $this->startTime = microtime(true);
-                }
             }
 
             return;
-        }
-        if ($this->debug) {
-            $this->startTime = microtime(true);
         }
         if ($this->debug && !isset($_ENV['SHELL_VERBOSITY']) && !isset($_SERVER['SHELL_VERBOSITY'])) {
             putenv('SHELL_VERBOSITY=3');
@@ -387,14 +389,6 @@ abstract class Kernel implements KernelInterface, RebootableInterface, Terminabl
     public function getCharset()
     {
         return 'UTF-8';
-    }
-
-    /**
-     * Gets the patterns defining the classes to parse and cache for annotations.
-     */
-    public function getAnnotatedClassesToCompile(): array
-    {
-        return array();
     }
 
     /**

@@ -180,7 +180,6 @@ class RouteCompiler implements RouteCompilerInterface
                 if (!$useUtf8 && $needsUtf8) {
                     throw new \LogicException(sprintf('Cannot mix UTF-8 requirement with non-UTF-8 charset for variable "%s" in pattern "%s".', $varName, $pattern));
                 }
-                $regexp = self::transformCapturingGroupsToNonCapturings($regexp);
             }
 
             $tokens[] = array('variable', $isSeparator ? $precedingChar : '', $regexp, $varName);
@@ -304,26 +303,5 @@ class RouteCompiler implements RouteCompilerInterface
                 return $regexp;
             }
         }
-    }
-
-    private static function transformCapturingGroupsToNonCapturings(string $regexp): string
-    {
-        for ($i = 0; $i < \strlen($regexp); ++$i) {
-            if ('\\' === $regexp[$i]) {
-                ++$i;
-                continue;
-            }
-            if ('(' !== $regexp[$i] || !isset($regexp[$i + 2])) {
-                continue;
-            }
-            if ('*' === $regexp[++$i] || '?' === $regexp[$i]) {
-                ++$i;
-                continue;
-            }
-            $regexp = substr_replace($regexp, '?:', $i, 0);
-            $i += 2;
-        }
-
-        return $regexp;
     }
 }
