@@ -17,7 +17,7 @@ class ProductsController extends Controller
     public function index()
     {
         //
-        return view('layout.', compact('products') );
+        return view('layout.adminhome', compact('products') );
     }
 
     /**
