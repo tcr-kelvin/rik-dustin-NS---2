@@ -1,9 +1,9 @@
 @extends('layout.app')
 
 @section('content')
-    <div class="container">
+    <div class="container-full">
         <div class="row justify-content-center">
-            <div class="col-md-12">
+            <div class="col-md-10">
                 <div class="card">
                     <div class="card-header">Dashboard</div>
 
@@ -16,23 +16,20 @@
                         <div class="alert alert-success">
                             <p>You are logged in as admin</p>
                         </div>
-
-
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="column-m-12">
+        <div class="row justify-content-center">
+            <div class="column-m-10">
                 <h2>user grud</h2>
-            </div>
-        </div>
-        <table class="table table-bordered">
+                <table class="table table-bordered">
             <tr>
-                <th style="width: 80px"></th>
+                <th style="width: 80px">id</th>
                 <th>name</th>
                 <th>mail</th>
                 <th>password</th>
+                <th>Admin</th>
                 <th style="width: 140px">
                     <a href="{{route('user.create')}}" class="btn btn-succes btn-sm">
                         <i class="fas fa-plus"></i>
@@ -46,6 +43,7 @@
                     <td>{{ $value->name }}</td>
                     <td>{{ $value->email }}</td>
                     <td>***</td>
+                    <td>{{ $value->admin }}</td>
                     <td>
                         <a href="{{route('user.show', $value->id)}}" class="btn btn-info btn-sm">
                             <i href="" class="fas fa-search"> </i>
@@ -60,5 +58,7 @@
                 </tr>
             @endforeach
         </table>
+            </div>
+        </div>
     </div>
 @endsection
