@@ -26,6 +26,7 @@ Route::get('/catlisting', function () {
 });
 Auth::routes();
 
+
 /*Route::get('/home', 'HomeController@index')->name('home');*/
 
 Route::group(['middleware' => ['web', 'auth']], function (){
@@ -40,7 +41,10 @@ Route::group(['middleware' => ['web', 'auth']], function (){
         }
         else {
             $users['users'] = \App\User::all();
-            return view ('/adminhome', $users);
+            $products = DB::table('products')->get();
+           // $users = DB::table('users')->get();
+
+            return view ('/adminhome', compact('users','products'));
         }
     });
 });
