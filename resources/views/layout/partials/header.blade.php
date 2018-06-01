@@ -71,10 +71,23 @@
     <div class="pull-right">
         <nav class="primary-nav">
             <ul>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+                <li> <a href="">Home</a> </li>
+                <li> <a href="catlisting?alias=simonly">Sim-Only</a> </li>
+                <li> <a href="catlisting?alias=simonly">Toestellen en Abonnementen</a> </li>
+                <li> <a href="catlisting?alias=simonly">Support</a> </li>
+=======
+>>>>>>> Rik
                 <li> <a href="home">Home</a> </li>
                 <li> <a href="catlisting?alias=simonly">Sim-Only</a> </li>
                 <li> <a href="catlisting?alias=abonnementen">Toestellen en Abonnementen</a> </li>
                 <li> <a href="catlisting?alias=support">Support</a> </li>
+<<<<<<< HEAD
+=======
+>>>>>>> Dustin
+>>>>>>> Rik
             </ul>
             <ul class="navbar-nav ml-auto">
                 <!-- Authentication Links -->

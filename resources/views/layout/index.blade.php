@@ -20,7 +20,15 @@
                 <div class="column-4">
                     <div class="item-box">
                         <h4 class="item-title">Apple iPhone X</h4>
+<<<<<<< HEAD
                         <img class="photo-box" src="photos/phone2.png">
+=======
+<<<<<<< HEAD
+                        <img class="photo-box" src="photos/phone.png">
+=======
+                        <img class="photo-box" src="photos/phone2.png">
+>>>>>>> Dustin
+>>>>>>> Rik
                         <p class="item-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
                         <a class="item-button teleking-button" style="float:inherit;"href="content">Meer info</a>
                     </div>
@@ -28,7 +36,15 @@
                 <div class="column-4">
                     <div class="item-box">
                         <h4 class="item-title">Samsung Galaxy S8</h4>
+<<<<<<< HEAD
                         <img class="photo-box" src="photos/phone3.png">
+=======
+<<<<<<< HEAD
+                        <img class="photo-box" src="photos/phone.png">
+=======
+                        <img class="photo-box" src="photos/phone3.png">
+>>>>>>> Dustin
+>>>>>>> Rik
                         <p class="item-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
                         <a class="item-button teleking-button" style="float:inherit;"href="content">Meer info</a>
                     </div>
@@ -36,7 +52,15 @@
                 <div class="column-4">
                     <div class="item-box">
                         <h4 class="item-title">OnePlus 6</h4>
+<<<<<<< HEAD
                         <img class="photo-box" src="photos/phone4.png">
+=======
+<<<<<<< HEAD
+                        <img class="photo-box" src="photos/phone.png">
+=======
+                        <img class="photo-box" src="photos/phone4.png">
+>>>>>>> Dustin
+>>>>>>> Rik
                         <p class="item-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
                         <a class="item-button teleking-button" style="float:inherit;"href="content">Meer info</a>
                     </div>
