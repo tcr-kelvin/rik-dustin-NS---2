@@ -12,14 +12,16 @@
 */
 
 Route::get('/', function () {
-    return view('layout.index');
+    $products = DB::table('products')->get();
+    return view('layout.index', compact('products'));
 });
 
 Route::get('/about', function () {
     return view('layout.about');
 });
 Route::get('/content', function () {
-    return view('layout.content');
+    $products = DB::table('products')->get();
+    return view('layout.content',compact('products'));
 });
 Route::get('/catlisting', function () {
     $products = DB::table('products')->get();
