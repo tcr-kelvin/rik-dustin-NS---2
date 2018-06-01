@@ -24,18 +24,9 @@ Route::get('/content', function () {
 Route::get('/catlisting', function () {
     return view('layout.catlisting');
 });
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 
 Route::resource('user', 'UserController');
 
-
-
-
-=======
->>>>>>> Dustin
->>>>>>> Rik
 Auth::routes();
 
 
