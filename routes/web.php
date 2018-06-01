@@ -31,11 +31,19 @@ Route::get('/catlisting', function () {
 Route::resource('user', 'UserController');
 Route::resource('product','ProductController');
 
+<<<<<<< HEAD
 Auth::routes();
 
 //CRUD PRODUCT
 
 
+=======
+
+
+
+Auth::routes();
+
+>>>>>>> Rik
 /*Route::get('/home', 'HomeController@index')->name('home');*/
 
 Route::group(['middleware' => ['web', 'auth']], function (){
@@ -50,10 +58,14 @@ Route::group(['middleware' => ['web', 'auth']], function (){
         }
         else {
             $users['users'] = \App\User::all();
+<<<<<<< HEAD
             $products = DB::table('products')->get();
            // $users = DB::table('users')->get();
 
             return view ('/adminhome', compact('users','products'));
+=======
+            return view ('/adminhome', $users);
+>>>>>>> Rik
         }
     });
 });

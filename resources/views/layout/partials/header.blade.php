@@ -71,10 +71,17 @@
     <div class="pull-right">
         <nav class="primary-nav">
             <ul>
+<<<<<<< HEAD
                 <li> <a href="home">Home</a> </li>
                 <li> <a href="catlisting?alias=simonly">Sim-Only</a> </li>
                 <li> <a href="catlisting?alias=abonnementen">Toestellen en Abonnementen</a> </li>
                 <li> <a href="catlisting?alias=support">Support</a> </li>
+=======
+                <li> <a href="">Home</a> </li>
+                <li> <a href="catlisting?alias=simonly">Sim-Only</a> </li>
+                <li> <a href="catlisting?alias=simonly">Toestellen en Abonnementen</a> </li>
+                <li> <a href="catlisting?alias=simonly">Support</a> </li>
+>>>>>>> Rik
             </ul>
             <ul class="navbar-nav ml-auto">
                 <!-- Authentication Links -->
@@ -93,8 +100,12 @@
                                                      document.getElementById('logout-form').submit();">
                                 {{ __('Logout') }}
                             </a>
+                            <a class="btn btn-primary" href="{{ route('user.index') }}">home</a>
 
                             <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                @csrf
+                            </form>
+                            <form id="logout-form" action="{{ route('user.index') }}" style="display: none;">
                                 @csrf
                             </form>
                         </div>
