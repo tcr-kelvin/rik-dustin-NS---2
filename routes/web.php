@@ -29,8 +29,11 @@ Route::get('/catlisting', function () {
 });
 
 Route::resource('user', 'UserController');
+Route::resource('product','ProductController');
 
 Auth::routes();
+
+//CRUD PRODUCT
 
 
 /*Route::get('/home', 'HomeController@index')->name('home');*/
