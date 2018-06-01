@@ -18,11 +18,7 @@
                         </div>
                     </div>
                 </div>
-<<<<<<< HEAD
-
         </div>
-
-=======
             </div>
         </div>
         <div class="row justify-content-center">
@@ -64,7 +60,6 @@
             @endforeach
         </table>
             </div>
->>>>>>> Rik
         </div>
     </div>
 @endsection
