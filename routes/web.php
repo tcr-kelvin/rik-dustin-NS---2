@@ -22,7 +22,8 @@ Route::get('/content', function () {
     return view('layout.content');
 });
 Route::get('/catlisting', function () {
-    return view('layout.catlisting');
+    $products = DB::table('products')->get();
+    return view('layout.catlisting', compact('products'));
 });
 
 Route::resource('user', 'UserController');
