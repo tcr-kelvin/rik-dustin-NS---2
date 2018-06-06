@@ -93,8 +93,12 @@
                                                      document.getElementById('logout-form').submit();">
                                 {{ __('Logout') }}
                             </a>
+                            <a class="btn btn-primary" href="{{ route('user.index') }}">home</a>
 
                             <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                @csrf
+                            </form>
+                            <form id="logout-form" action="{{ route('user.index') }}" style="display: none;">
                                 @csrf
                             </form>
                         </div>
