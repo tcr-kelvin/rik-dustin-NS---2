@@ -12,7 +12,8 @@
 */
 
 Route::get('/', function () {
-    return view('layout.index');
+    $products = DB::table('products')->get();
+    return view('layout.index', compact('products'));
 });
 
 Route::get('/about', function () {
@@ -22,12 +23,11 @@ Route::get('/content', function () {
     return view('layout.content');
 });
 Route::get('/catlisting', function () {
-    return view('layout.catlisting');
+    $products = DB::table('products')->get();
+    return view('layout.catlisting',compact('products'));
 });
 
 Route::resource('user', 'UserController');
-
-
 
 
 Auth::routes();
@@ -45,9 +45,9 @@ Route::group(['middleware' => ['web', 'auth']], function (){
             return view('home');
         }
         else {
-            $users['users'] = \App\User::all();
+            $users = \App\User::all();
             $products = DB::table('products')->get();
-            return view ('/adminhome', $users,compact('products'));
+            return view ('/adminhome', compact('users','products'));
         }
     });
 });
