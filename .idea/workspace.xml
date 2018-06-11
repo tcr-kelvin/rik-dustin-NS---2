@@ -4,6 +4,7 @@
     <list default="true" id="d6eba3e2-483b-4f1d-81ce-3691d079542e" name="Default" comment="">
       <change afterPath="$PROJECT_DIR$/../zara/public/image/layer.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../zara/resources/assets/sass/components/responsive.scss" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
@@ -12,6 +13,9 @@
       <change beforePath="$PROJECT_DIR$/resources/views/adminhome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/adminhome.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layout/partials/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/partials/header.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/resources/views/layout/partials/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/partials/header.blade.php" afterDir="false" />
+>>>>>>> b921e3fa871ed19f0a5c4310c449c57841993359
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,8 +31,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="338">
               <caret line="49" column="34" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
+=======
+            <state relative-caret-position="341">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+>>>>>>> b921e3fa871ed19f0a5c4310c449c57841993359
             </state>
           </provider>
         </entry>
@@ -36,15 +45,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/adminhome.blade.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="184">
               <caret line="54" column="74" selection-start-line="54" selection-start-column="74" selection-end-line="54" selection-end-column="74" />
               <folding>
                 <element signature="e#3148#3168#0#HTML" expanded="true" />
+=======
+            <state relative-caret-position="-222">
+              <caret line="34" column="51" lean-forward="true" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/User.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#23#63#0#PHP" expanded="true" />
+>>>>>>> b921e3fa871ed19f0a5c4310c449c57841993359
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserController.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -53,25 +78,54 @@
               <folding>
                 <element signature="e#40#68#0#PHP" expanded="true" />
               </folding>
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/layout/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-column="19" />
+>>>>>>> b921e3fa871ed19f0a5c4310c449c57841993359
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/resources/views/grud/show.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="320">
               <caret line="29" column="65" selection-start-line="29" selection-start-column="60" selection-end-line="29" selection-end-column="65" />
+=======
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1825">
+              <caret line="73" selection-start-line="73" selection-end-line="73" />
+              <folding>
+                <element signature="e#40#68#0#PHP" expanded="true" />
+              </folding>
+>>>>>>> b921e3fa871ed19f0a5c4310c449c57841993359
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/layout/partials/header.blade.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="-7">
               <caret line="88" selection-start-line="88" selection-end-line="88" />
               <folding>
+=======
+            <state relative-caret-position="279">
+              <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
+              <folding>
+                <element signature="n#style#0;n#form#0;n#div#0;n#li#2;n#ul#1;n#nav#0;n#div#1;n#header#0;n#!!top" expanded="true" />
+>>>>>>> b921e3fa871ed19f0a5c4310c449c57841993359
                 <element signature="n#style#0;n#form#1;n#div#0;n#li#2;n#ul#1;n#nav#0;n#div#1;n#header#0;n#!!top" expanded="true" />
               </folding>
             </state>
@@ -79,10 +133,17 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/resources/views/grud/Form_master.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="725">
               <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+=======
+        <entry file="file://$PROJECT_DIR$/resources/views/grud/show.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="29" column="70" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="70" />
+>>>>>>> b921e3fa871ed19f0a5c4310c449c57841993359
             </state>
           </provider>
         </entry>
@@ -90,8 +151,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/grud/edit.blade.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="100">
               <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="49" />
+=======
+            <state relative-caret-position="150">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+>>>>>>> b921e3fa871ed19f0a5c4310c449c57841993359
             </state>
           </provider>
         </entry>
@@ -99,8 +165,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/grud/create.blade.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="125">
               <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="41" />
+=======
+            <state relative-caret-position="200">
+              <caret line="8" column="113" selection-start-line="8" selection-start-column="113" selection-end-line="8" selection-end-column="113" />
+>>>>>>> b921e3fa871ed19f0a5c4310c449c57841993359
             </state>
           </provider>
         </entry>
@@ -154,6 +225,11 @@
         <option value="$PROJECT_DIR$/resources/views/layout/partials/header.blade.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/UserController.php" />
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/resources/views/grud/Form_master.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layout/partials/header.blade.php" />
+>>>>>>> b921e3fa871ed19f0a5c4310c449c57841993359
       </list>
     </option>
   </component>
@@ -306,9 +382,25 @@
               <item name="Controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
+<<<<<<< HEAD
               <item name="rik-dustin-NS---2-kopie" type="b2602c69:ProjectViewProjectNode" />
               <item name="rik-dustin-NS---2-kopie" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="rik-dustin-NS---2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rik-dustin-NS---2" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rik-dustin-NS---2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rik-dustin-NS---2" type="462c0819:PsiDirectoryNode" />
               <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rik-dustin-NS---2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rik-dustin-NS---2" type="462c0819:PsiDirectoryNode" />
+>>>>>>> b921e3fa871ed19f0a5c4310c449c57841993359
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rik-dustin-NS---2-kopie" type="b2602c69:ProjectViewProjectNode" />
@@ -350,8 +442,28 @@
               <item name="partials" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
+<<<<<<< HEAD
               <item name="rik-dustin-NS---2-kopie" type="b2602c69:ProjectViewProjectNode" />
               <item name="rik-dustin-NS---2-kopie" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="rik-dustin-NS---2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rik-dustin-NS---2" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rik-dustin-NS---2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rik-dustin-NS---2" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+              <item name="partials" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rik-dustin-NS---2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rik-dustin-NS---2" type="462c0819:PsiDirectoryNode" />
+>>>>>>> b921e3fa871ed19f0a5c4310c449c57841993359
               <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -413,13 +525,21 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="38322000" />
+=======
+    <option name="totallyTimeSpent" value="31810000" />
+>>>>>>> b921e3fa871ed19f0a5c4310c449c57841993359
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
+<<<<<<< HEAD
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2746781" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26752505" />
+>>>>>>> b921e3fa871ed19f0a5c4310c449c57841993359
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -537,6 +657,16 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> b921e3fa871ed19f0a5c4310c449c57841993359
     <entry file="file://$PROJECT_DIR$/resources/views/layout/partials/footer.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
@@ -589,6 +719,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/resources/views/layout/about.blade.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -621,12 +752,29 @@
     <entry file="file://$PROJECT_DIR$/app/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-38">
+=======
+    <entry file="file://$PROJECT_DIR$/resources/views/layout.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layout/about.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1825">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+>>>>>>> b921e3fa871ed19f0a5c4310c449c57841993359
           <folding>
-            <element signature="e#23#63#0#PHP" expanded="true" />
+            <element signature="e#40#68#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/Product.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -641,17 +789,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+=======
+    <entry file="file://$PROJECT_DIR$/resources/views/grud/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="113" selection-start-line="8" selection-start-column="113" selection-end-line="8" selection-end-column="113" />
+>>>>>>> b921e3fa871ed19f0a5c4310c449c57841993359
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layout.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/grud/Form_master.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        <state relative-caret-position="421">
+          <caret line="42" column="108" selection-start-line="42" selection-start-column="108" selection-end-line="42" selection-end-column="108" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
+<<<<<<< HEAD
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-78" />
       </provider>
@@ -684,11 +839,56 @@
           <folding>
             <element signature="n#style#0;n#form#1;n#div#0;n#li#2;n#ul#1;n#nav#0;n#div#1;n#header#0;n#!!top" expanded="true" />
           </folding>
+=======
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-59" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/grud/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/adminhome.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/User.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#23#63#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layout/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layout/partials/header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
+          <folding>
+            <element signature="n#style#0;n#form#0;n#div#0;n#li#2;n#ul#1;n#nav#0;n#div#1;n#header#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#form#1;n#div#0;n#li#2;n#ul#1;n#nav#0;n#div#1;n#header#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/grud/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="29" column="70" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="70" />
+>>>>>>> b921e3fa871ed19f0a5c4310c449c57841993359
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="184">
           <caret line="54" column="74" selection-start-line="54" selection-start-column="74" selection-end-line="54" selection-end-column="74" />
           <folding>
@@ -718,8 +918,22 @@
           <folding>
             <element signature="e#40#68#0#PHP" expanded="true" />
           </folding>
+=======
+        <state relative-caret-position="341">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/adminhome.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-222">
+          <caret line="34" column="51" lean-forward="true" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
+>>>>>>> b921e3fa871ed19f0a5c4310c449c57841993359
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
