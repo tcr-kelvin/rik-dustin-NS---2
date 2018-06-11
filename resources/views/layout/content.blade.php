@@ -32,7 +32,7 @@
                 </div>
             </div>
             <div class="column-2 content-column">
-                <img class="content-img" src="photos/phone.png" alt="Samsung Galaxy S9">
+                <img class="content-img pull-right" src="photos/phone.png" alt="Samsung Galaxy S9">
             </div>
         </div>
     </section>
