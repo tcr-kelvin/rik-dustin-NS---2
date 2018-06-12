@@ -26,8 +26,13 @@ Route::get('/catlisting', function () {
     $products = DB::table('products')->get();
     return view('layout.catlisting',compact('products'));
 });
+Route::get('/support', function () {
+    return view('layout.support');
+});
 
 Route::resource('user', 'UserController');
+Route::resource('product', 'ProductsController');
+
 
 
 Auth::routes();

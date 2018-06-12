@@ -39,7 +39,7 @@
             <?php $no = 1; ?>
             @foreach($users as $key => $value)
                 <tr>
-                    <td>{{$no++}}</td>
+                    <td>{{$value->id}}</td>
                     <td>{{ $value->name }}</td>
                     <td>{{ $value->email }}</td>
                     <td>***</td>

@@ -21,4 +21,6 @@
         </div>
     </section>
 </main>
+    {{--footer--}}
+    @include ('layout.partials.footer')
 @endsection
