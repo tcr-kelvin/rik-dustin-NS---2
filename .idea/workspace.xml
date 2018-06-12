@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d6eba3e2-483b-4f1d-81ce-3691d079542e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/resources/views/layout/catlisting.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/catlisting.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layout/content.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/content.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layout/partials/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/partials/header.blade.php" afterDir="false" />
-    </list>
+    <list default="true" id="d6eba3e2-483b-4f1d-81ce-3691d079542e" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -236,7 +232,7 @@
       <path value="$PROJECT_DIR$/vendor/laravelcollective/html" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
@@ -354,15 +350,15 @@
       <workItem from="1527501719529" duration="2653000" />
       <workItem from="1527505717759" duration="3374000" />
       <workItem from="1528721025356" duration="476000" />
-      <workItem from="1528722574871" duration="2095000" />
+      <workItem from="1528722574871" duration="3292000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35083000" />
+    <option name="totallyTimeSpent" value="36280000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
