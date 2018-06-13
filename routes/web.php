@@ -61,3 +61,8 @@ Route::get('/home/user', function () {
     $users = \App\User::all();
     return view('user',compact('users','products'));
 });
+
+Route::get('/home/product', function () {
+    $products = DB::table('products')->get();
+    return view('product',compact('users','products'));
+});
