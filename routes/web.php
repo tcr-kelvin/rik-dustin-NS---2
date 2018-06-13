@@ -57,3 +57,7 @@ Route::group(['middleware' => ['web', 'auth']], function (){
     });
 });
 
+Route::get('/home/user', function () {
+    $users = \App\User::all();
+    return view('user',compact('users','products'));
+});
