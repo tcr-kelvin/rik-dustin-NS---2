@@ -15,16 +15,16 @@
                 {{ $product->name}}
             </div>
             <div class="form-group">
-                <strong>mail : </strong>
-                {{ $product->email}}
+                <strong>description : </strong>
+                {{ $product->description }}
             </div>
             <div class="form-group">
-                <strong>password : </strong>
-                {{ $product->password}}
+                <strong>image : </strong>
+                <img src="../{{ $product->imagepath}}" alt="{{ $product->name}} style="width="150px">
             </div>
             <div class="form-group">
-                <strong>admin rights : </strong>
-                {{ $product->admin}}
+                <strong>price : </strong>
+                {{ $product->price}}
             </div>
             <br/>
             <a class="btn btn-primary" href="{{ route('product.index') }}"> <i class="fas fa-chevron-right"></i></a>

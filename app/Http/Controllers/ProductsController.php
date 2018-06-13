@@ -2,13 +2,16 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Requests\ProductsStorePost;
-use App\Product;
 use Illuminate\Http\Request;
+use App\Product;
+use App\Http\Requests\ProductsStorePost;
+
+
 
 
 class ProductsController extends Controller
 {
+
     /**
      * Display a listing of the resource.
      *
