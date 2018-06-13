@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6eba3e2-483b-4f1d-81ce-3691d079542e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/layout/support.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product/Form_master.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProductsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProductsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/ProductFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/ProductFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/adminhome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/adminhome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layout/about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/about.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layout/catlisting.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/catlisting.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layout/content.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/content.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layout/partials/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/partials/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,8 +24,22 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/adminhome.blade.php">
+=======
+      <file leaf-file-name="adminhome.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/adminhome.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="89" column="29" lean-forward="true" selection-start-line="89" selection-start-column="29" selection-end-line="89" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Form_master.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/product/Form_master.blade.php">
+>>>>>>> 07c04519a15a1a9c8aa3f338ee1c96b79411579c
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="148">
               <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
@@ -53,14 +53,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/user.blade.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="671">
               <caret line="63" selection-start-line="63" selection-end-line="63" />
+=======
+            <state relative-caret-position="306">
+              <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+>>>>>>> 07c04519a15a1a9c8aa3f338ee1c96b79411579c
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/grud/Form_master.blade.php">
+=======
+      <file leaf-file-name="show.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/product/show.blade.php">
+>>>>>>> 07c04519a15a1a9c8aa3f338ee1c96b79411579c
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="399">
               <caret line="43" column="23" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
@@ -68,11 +78,37 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/grud/create.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="125">
               <caret line="5" column="67" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
+=======
+      <file leaf-file-name="HomeController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="679">
+              <caret line="94" column="21" selection-start-line="94" selection-end-line="95" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Controller.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="7" selection-end-column="57" />
+>>>>>>> 07c04519a15a1a9c8aa3f338ee1c96b79411579c
             </state>
           </provider>
         </entry>
@@ -89,8 +125,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/layout/partials/header.blade.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="674">
               <caret line="88" selection-start-line="88" selection-end-line="88" />
+=======
+            <state relative-caret-position="319">
+              <caret line="80" column="7" selection-start-line="80" selection-start-column="7" selection-end-line="80" selection-end-column="7" />
+>>>>>>> 07c04519a15a1a9c8aa3f338ee1c96b79411579c
             </state>
           </provider>
         </entry>
@@ -166,10 +207,14 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/ProductsController.php" />
         <option value="$PROJECT_DIR$/resources/views/product/Form_master.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/product/show.blade.php" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/resources/views/user.blade.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/adminhome.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/grud/create.blade.php" />
+=======
+        <option value="$PROJECT_DIR$/resources/views/adminhome.blade.php" />
+>>>>>>> 07c04519a15a1a9c8aa3f338ee1c96b79411579c
       </list>
     </option>
   </component>
@@ -323,8 +368,21 @@
               <item name="Controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
+<<<<<<< HEAD
               <item name="rik-dustin-NS---2" type="b2602c69:ProjectViewProjectNode" />
               <item name="rik-dustin-NS---2" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="teleking" type="b2602c69:ProjectViewProjectNode" />
+              <item name="teleking" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="Auth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="teleking" type="b2602c69:ProjectViewProjectNode" />
+              <item name="teleking" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 07c04519a15a1a9c8aa3f338ee1c96b79411579c
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -404,12 +462,16 @@
       <workItem from="1527505717759" duration="3374000" />
       <workItem from="1528721025356" duration="476000" />
       <workItem from="1528722574871" duration="3292000" />
-      <workItem from="1528795652989" duration="2241000" />
+      <workItem from="1528795652989" duration="3008000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="39526000" />
+=======
+    <option name="totallyTimeSpent" value="39288000" />
+>>>>>>> 07c04519a15a1a9c8aa3f338ee1c96b79411579c
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
@@ -549,20 +611,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" selection-start-line="2" selection-end-line="7" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/app.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="181">
@@ -594,6 +642,16 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 07c04519a15a1a9c8aa3f338ee1c96b79411579c
     <entry file="file://$PROJECT_DIR$/resources/views/layout/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -691,17 +749,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProductsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="80" column="7" selection-start-line="80" selection-start-column="7" selection-end-line="80" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/grud/show.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -712,6 +763,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/resources/views/layout/partials/header.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="674">
@@ -771,6 +823,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="5" column="67" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="679">
+          <caret line="94" column="21" selection-start-line="94" selection-end-line="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="7" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProductsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="80" column="7" selection-start-line="80" selection-start-column="7" selection-end-line="80" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/adminhome.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="89" column="29" lean-forward="true" selection-start-line="89" selection-start-column="29" selection-end-line="89" selection-end-column="29" />
+>>>>>>> 07c04519a15a1a9c8aa3f338ee1c96b79411579c
         </state>
       </provider>
     </entry>

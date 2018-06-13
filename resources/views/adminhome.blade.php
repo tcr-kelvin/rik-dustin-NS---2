@@ -31,8 +31,7 @@
                         <td>description</td>
                         <td>imagepath</td>
                         <td>price</td>
-                        <td>created at</td>
-                        <td>updated at</td>
+                        <td>CRUD</td>
                     </tr>
                     @foreach($products as $product)
                         <tr>
@@ -41,8 +40,17 @@
                             <td>{{substr($product->description,0,100).'...'}}</td>
                             <td><img style="width:100px;"src=" {{$product->imagepath}}" alt="{{$product->name}}"></td>
                             <td>{{$product->price}}</td>
-                            <td>{{$product->created_at}}</td>
-                            <td>{{$product->updated_at}}</td>
+                            <td>
+                                <a href="{{route('product.show', $product->id)}}" class="btn btn-info btn-sm">
+                                    <i href="" class="fas fa-search"> </i>
+                                </a>
+                                <a href="{{route('product.edit', $product->id)}}" class="btn btn-primary btn-sm">
+                                    <i href="" class="fas fa-pencil-alt"> </i>
+                                </a>
+                                {!! Form::open(['method' => 'DELETE','route' => ['product.destroy', $product->id],'style'=>'display:inline']) !!}
+                                <button type="submit" style="display: inline;" class="btn btn-danger btn-sm"><i class="fas fa-trash-alt"></i></button>
+                                {!! Form::close() !!}
+                            </td>
                         </tr>
                     @endforeach
 
