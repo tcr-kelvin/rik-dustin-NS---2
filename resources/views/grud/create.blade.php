@@ -6,7 +6,7 @@
             {{ Form::open(['route'=>'user.store', 'method'=>'POST']) }}
             @include('grud.form_master')
             {{ form::close() }}
-            <a class="btn btn-primary" href="{{ route('home/user.index') }}"> <i class="fas fa-chevron-right"></i></a>
+            <a class="btn btn-primary" href="{{ route('user.index') }}"> <i class="fas fa-chevron-right"></i></a>
         </div>
     </div>
 @endsection
