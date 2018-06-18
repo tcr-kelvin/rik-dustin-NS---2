@@ -25,6 +25,7 @@
                 <form action="home/product">
                     <input class="btn btn-success" type="submit" value="Producten" />
                 </form>
+                <br>
                 <form action="home/user">
                     <input class="btn btn-success"  type="submit" value="Gebruikers" />
                 </form>

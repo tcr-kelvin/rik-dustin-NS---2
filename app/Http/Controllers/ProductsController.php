@@ -11,7 +11,6 @@ use App\Http\Requests\ProductsStorePost;
 
 class ProductsController extends Controller
 {
-
     /**
      * Display a listing of the resource.
      *
@@ -42,7 +41,6 @@ class ProductsController extends Controller
      */
     public function store(ProductsStorePost $request)
     {
-        //
         $validated = $request->validated();
 
         $product = new Product();
@@ -117,4 +115,5 @@ class ProductsController extends Controller
         return redirect()->action('ProductsController@index')
             ->with('status', 'Product verwijderd');
     }
+
 }
