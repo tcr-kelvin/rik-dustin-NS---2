@@ -19,12 +19,14 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('layout.about');
 });
-Route::get('/content', function () {
-    return view('layout.content');
-});
+
 Route::get('/catlisting', function () {
     $products = DB::table('products')->get();
     return view('layout.catlisting',compact('products'));
+});
+Route::get('/content', function () {
+    $products = DB::table('products')->get();
+    return view('layout.content',compact('products'));
 });
 Route::get('/support', function () {
     return view('layout.support');
