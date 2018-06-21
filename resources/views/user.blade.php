@@ -1,6 +1,7 @@
 @extends('layout.app')
 
 @section('content')
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <div class="container-full">
         <div class="row justify-content-center">
             <div class="col-md-10">
@@ -23,7 +24,16 @@
         <div class="row justify-content-center">
             <div class="column-m-10">
                 <h2>user grud</h2>
+                <div class="container box">
+                    <h3 align="center">Ajax Autocomplete Textbox in Laravel using JQuery</h3><br />
+                </div>
                 <table class="table table-bordered">
+                    <div class="form-group">
+                    <input type="text" name="country_name" id="country_name" class="form-control input-lg" placeholder="Enter Country Name" />
+                        <div id="countryList">
+
+                        </div>
+                    </div>
                     <tr>
                         <th style="width: 80px">id</th>
                         <th>name</th>
@@ -61,3 +71,32 @@
             </div>
         </div>
     </div>
+    <script>
+        $(document).ready(function(){
+
+            $('#country_name').keyup(function(){
+                var query = $(this).val();
+                if(query != '')
+                {
+                    var _token = $('input[name="_token"]').val();
+                    $.ajax({
+                        url:"{{ route('user.fetch') }}",
+                        method:"POST",
+                        data:{query:query, _token:_token},
+                        success:function(data){
+                            $('#countryList').fadeIn();
+                            $('#countryList').html(data);
+                        }
+                    });
+                }
+            });
+
+            $(document).on('click', 'li', function(){
+                $('#country_name').val($(this).text());
+                $('#countryList').fadeOut();
+            });
+
+        });
+    </script>
+
+

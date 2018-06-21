@@ -47,7 +47,7 @@ Route::group(['middleware' => ['web', 'auth']], function (){
     Route::get('/home', function (){
 
         if (auth::user()->admin == 0) {
-            return view('home');
+            return view('home', compact('users'));
         }
         else {
             $users = \App\User::all();
@@ -57,12 +57,15 @@ Route::group(['middleware' => ['web', 'auth']], function (){
     });
 });
 
-Route::get('/home/user', function () {
+Route::get('/home/user',function () {
     $users = \App\User::all();
-    return view('user',compact('users','products'));
+    return view('user',compact('users', 'AutocompleteController@index'));
 });
+
 
 Route::get('/home/product', function () {
     $products = DB::table('products')->get();
     return view('product',compact('users','products'));
 });
+
+Route::post('/home/user/fetch', 'AutocompleteController@fetch')->name('user.fetch');
