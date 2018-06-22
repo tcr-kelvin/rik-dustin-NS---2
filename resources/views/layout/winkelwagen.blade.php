@@ -1,37 +1,41 @@
-@extends ('layout')
+@extends('layout')
 
-@section ('content')
+@section('content')
 
-    {{--header--}}
     @include ('layout.partials.header')
     <main>
-        <section class="section">
-            <div class="row">
-                <div class="column-2 content-column">
-                    <h2 class="content-title pull-left">{{$product->name}}</h2>
+        <div style="text-align: center" id="top">
+            <ul id="show-cart">
+                <li>???????</li>
+            </ul>
+            {{--<div>Je hebt <span id="count-cart">X</span> producten in je mandje</div>--}}
+            <div>Totaal: € <span id="total-cart"></span></div>
+            <button id="clear-cart">Annuleren</button>
 
-                    <div class="content-line"></div>
-                    <h4 class="pull-right teleking-fakebutton">€{{$product->price}}</h4>
-                    <p class="pull-left content-text">
-                        {{$product->description}}
-                    </p>
-                    <div class="content-button-wrap">
-                        <a class="add-to-cart content-button teleking-button pull-right" href="/winkelwagen" data-name="{{$product->name}}" data-price="{{$product->price}}">+ Winkelwagen</a>
+        </div>
 
-                        {{--<a class="content-button teleking-button "href="#">+ Winkelwagen</a>--}}
-                        {{--<a class="content-button teleking-button pull-right"href="#">+ Verlanglijstje</a>--}}
+        <div class="paralaximg" style="margin: 50px 0">
+            <h1>TeleKing</h1>
+            <span>Telefoons en Abonnementen</span>
+        </div>
+        <section class="section top-toestellen">
+            <h2 class="section-title">Top Toestellen</h2>
+            <div class="row-box">
+                @foreach($products->take(4) as $product)
+                    <div class="item-box">
+                        <h4 class="item-title">{{$product->name}}</h4>
+                        <img class="photo-box" src="{{$product->imagepath}}">
+                        <p class="item-info">{{substr($product->description,0,100).'...'}}</p>
+                        <a class="add-to-cart item-button teleking-button" style="float:inherit;" href="" data-name="{{$product->name}}" data-price="{{$product->price}}">+ Winkelwagen</a>
                     </div>
-                </div>
-                <div class="column-2 content-column">
-                    <img class="content-img pull-right" src="{{$product->imagepath}}" alt="{{$product->name}}">
-                </div>
+                @endforeach
             </div>
         </section>
     </main>
-    {{--footer--}}
     @include ('layout.partials.footer')
 
-    <script type="text/javascript" src="../../js/shoppingcart.js"></script>
+    {{--SCRIPTS--}}
+    <script type="text/javascript" src="js/shoppingcart.js"></script>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript">
         $(".add-to-cart").click(function(event){
@@ -94,39 +98,3 @@
     </script>
 
 @endsection
-
-{{--@extends('layout.app')--}}
-
-{{--@section('content')--}}
-    {{--<div class="row justify-content-center">--}}
-        {{--<div class="col-md-10">--}}
-            {{--<div class="">--}}
-                {{--<h2> Show Post</h2><br>--}}
-            {{--</div>--}}
-        {{--</div>--}}
-    {{--</div>--}}
-    {{--<div class="row justify-content-center">--}}
-        {{--<div class="col-md-10">--}}
-            {{--<div class="form-group">--}}
-                {{--<strong>name : </strong>--}}
-                {{--{{ $product->name}}--}}
-            {{--</div>--}}
-            {{--<div class="form-group">--}}
-                {{--<strong>description : </strong>--}}
-                {{--{{ $product->description }}--}}
-            {{--</div>--}}
-            {{--<div class="form-group">--}}
-                {{--<strong>image : </strong>--}}
-                {{--<img src="../{{ $product->imagepath}}" alt="{{ $product->name}} style="width="150px">--}}
-            {{--</div>--}}
-            {{--<div class="form-group">--}}
-                {{--<strong>price : </strong>--}}
-                {{--{{ $product->price}}--}}
-            {{--</div>--}}
-            {{--<br/>--}}
-            {{--<a class="btn btn-primary" href="{{ route('product.index') }}"> <i class="fas fa-chevron-right"></i></a>--}}
-        {{--</div>--}}
-    {{--</div>--}}
-{{--@endsection--}}
-
-{{--SCRIPTS--}}

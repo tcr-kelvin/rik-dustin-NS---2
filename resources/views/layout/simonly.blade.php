@@ -21,4 +21,4 @@
     </main>
 
     @include ('layout.partials.footer')
-
+@endsection

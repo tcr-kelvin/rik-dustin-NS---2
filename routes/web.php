@@ -33,6 +33,12 @@ Route::get('/simonly', function () {
 });
 
 
+
+Route::get('/winkelwagen', function () {
+    $products = DB::table('products')->get();
+    return view('layout.winkelwagen',compact('products'));
+});
+
 Route::get('/content', function () {
     $products = DB::table('products')->get();
     return view('layout.content',compact('products'));

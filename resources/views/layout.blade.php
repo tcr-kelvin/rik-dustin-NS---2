@@ -24,12 +24,10 @@
         <meta name="msapplication-TileImage" content="favicon//ms-icon-144x144.png">
         <meta name="theme-color" content="#ffffff">
         <title>TeleKing 📱👑</title>
-
         <!-- Styles -->
         <link rel="stylesheet" href="css/app.css">
         <link rel="stylesheet" href="css/style.css">
-
-
+        {{--JS--}}
 
     </head>
     <body>

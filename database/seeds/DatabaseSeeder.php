@@ -13,6 +13,6 @@ class DatabaseSeeder extends Seeder
     {
         //Eloquent::ungard();
         //$this->call(UsersTableSeeder::class);
-        $this->call(ProductsTableSeeder::class);
+        //$this->call(ProductsTableSeeder::class);
     }
 }
