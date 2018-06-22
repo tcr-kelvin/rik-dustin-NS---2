@@ -19,12 +19,13 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('layout.about');
 });
-
+Route::get('/content', function () {
+    return view('layout.content');
+});
 Route::get('/catlisting', function () {
     $products = DB::table('products')->get();
     return view('layout.catlisting',compact('products'));
 });
-<<<<<<< HEAD
 
 Route::get('/simonly', function () {
 
@@ -32,12 +33,6 @@ Route::get('/simonly', function () {
     return view('layout.simonly',compact('simonlys'));
 });
 
-=======
-Route::get('/content', function () {
-    $products = DB::table('products')->get();
-    return view('layout.content',compact('products'));
-});
->>>>>>> e9e78d30b2ac16e0d694a7cfc8694248e9f6d39d
 Route::get('/support', function () {
     return view('layout.support');
 });

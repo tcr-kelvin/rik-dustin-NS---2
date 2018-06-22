@@ -13,13 +13,7 @@ class ProductsStorePost extends FormRequest
      */
     public function authorize()
     {
-//        if (auth::user()->admin == 0) {
-            return true;
-//        }
-//        else{
-//            return false;
-//        }
-
+        return false;
     }
 
     /**

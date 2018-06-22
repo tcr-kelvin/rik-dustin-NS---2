@@ -38,7 +38,7 @@
                         <td>{{$product->id}}</td>
                         <td>{{$product->name}}</td>
                         <td>{{substr($product->description,0,100).'...'}}</td>
-                        <td><img style="width:100px;"src="../{{$product->imagepath}}" alt="{{$product->name}}"></td>
+                        <td><img style="width:100px;"src=" {{$product->imagepath}}" alt="{{$product->name}}"></td>
                         <td>{{$product->price}}</td>
                         <td>
                             <a href="{{route('product.show', $product->id)}}" class="btn btn-info btn-sm">
