@@ -6,7 +6,10 @@
     @include ('layout.partials.header')
 
     <main>
-
+        <div class="paralaximg">
+            <h1>TeleKing</h1>
+            <span>Telefoons en Abonnementen</span>
+        </div>
         <section class="section top-toestellen">
             <h2 class="section-title">Top Toestellen</h2>
             <div class="row-box">
@@ -20,10 +23,7 @@
                 @endforeach
             </div>
         </section>
-        <div class="paralaximg">
-            <h1>TeleKing</h1>
-            <span>Telefoons en Abonnementen</span>
-        </div>
+
     </main>
 
     {{--footer--}}
