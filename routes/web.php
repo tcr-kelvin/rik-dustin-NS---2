@@ -27,7 +27,6 @@ Route::get('/catlisting', function () {
 
 
 Route::get('/simonly', function () {
-
     $simonlys = DB::table('simonlys')->get();
     return view('layout.simonly',compact('simonlys'));
 });
@@ -43,13 +42,15 @@ Route::get('/content', function () {
     $products = DB::table('products')->get();
     return view('layout.content',compact('products'));
 });
+
 Route::get('/support', function () {
-    return view('layout.support');
+    $questions = \App\Question::all();
+    return view('layout.support',compact('questions'));
 });
 
 Route::resource('user', 'UserController');
 Route::resource('product', 'ProductsController');
-
+Route::resource('question', 'QuestionsController');
 
 
 Auth::routes();
