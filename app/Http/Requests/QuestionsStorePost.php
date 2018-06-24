@@ -12,9 +12,9 @@ class QuestionsStorePost extends FormRequest
      */
     public function authorize()
     {
-        if (auth::user()) {
+//        if (auth::user()) {
             return true;
-        }
+//        }
     }
 
     /**
