@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Requests;
-
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Foundation\Http\FormRequest;
 
 class ProductsStorePost extends FormRequest
@@ -13,11 +13,8 @@ class ProductsStorePost extends FormRequest
      */
     public function authorize()
     {
-//        if (auth::user()->admin == 0) {
+//        if (auth::user()) {
             return true;
-//        }
-//        else{
-//            return false;
 //        }
 
     }
