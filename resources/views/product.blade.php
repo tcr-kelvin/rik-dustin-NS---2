@@ -31,7 +31,7 @@
                     <td>description</td>
                     <td>imagepath</td>
                     <td>price</td>
-                    <td>CRUD</td>
+                    <td>CRUD <a href="/product/create">+</a> </td>
                 </tr>
                 @foreach($products as $product)
                     <tr>
