@@ -52,6 +52,7 @@ Route::resource('user', 'UserController');
 Route::resource('product', 'ProductsController');
 Route::resource('question', 'QuestionsController');
 Route::resource('review', 'ReviewsController');
+Route::resource('prepaid', 'PrepaidsController');
 
 
 Auth::routes();
