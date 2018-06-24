@@ -67,7 +67,7 @@ Route::group(['middleware' => ['web', 'auth']], function (){
             return view('home', compact('users'));
         }
         else {
-            $users = \App\User::all();
+            $users = DB::table('users')->get();
             $products = DB::table('products')->get();
             return view ('/adminhome', compact('users','products'));
         }
