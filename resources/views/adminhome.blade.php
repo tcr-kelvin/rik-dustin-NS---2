@@ -29,6 +29,13 @@
                 <form action="home/user">
                     <input class="btn btn-success"  type="submit" value="Gebruikers" />
                 </form>
+                <form action="home/reviews">
+                    <input class="btn btn-success" type="submit" value="Reviews" />
+                </form>
+                <br>
+                <form action="home/questions">
+                    <input class="btn btn-success"  type="submit" value="Vragen" />
+                </form>
             </div>
         </div>
 

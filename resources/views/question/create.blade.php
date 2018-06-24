@@ -6,7 +6,7 @@
             {{ Form::open(['route'=>'question.store', 'method'=>'POST']) }}
             @include('question.form_master')
             {{ form::close() }}
-            <a class="btn btn-primary" href="{{ route('question.index') }}"> <i class="fas fa-chevron-right"></i></a>
+            <a class="btn btn-primary" href="/support"> <i class="fas fa-chevron-right"></i></a>
         </div>
     </div>
 @endsection
