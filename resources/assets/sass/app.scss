@@ -8,6 +8,7 @@
 
 //global
 @import "common/global";
+@import 'common/grid';
 
 // npm
 @import '~@fortawesome/fontawesome-free-webfonts/scss/fa-brands';
@@ -21,4 +22,3 @@
 //assets
 @import 'assets/header';
 @import 'assets/footer';
-@import 'assets/grid';
