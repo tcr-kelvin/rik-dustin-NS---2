@@ -1,9 +1,8 @@
 <?php
 
 namespace App\Http\Requests;
-
 use Illuminate\Foundation\Http\FormRequest;
-
+use Illuminate\Support\Facades\Auth;
 class QuestionsStorePost extends FormRequest
 {
     /**
@@ -13,7 +12,9 @@ class QuestionsStorePost extends FormRequest
      */
     public function authorize()
     {
-        return true;
+        if (auth::user()) {
+            return true;
+        }
     }
 
     /**
