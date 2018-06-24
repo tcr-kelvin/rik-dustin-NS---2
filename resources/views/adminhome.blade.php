@@ -22,18 +22,18 @@
         </div>
         <div class="row justify-content-center">
             <div class="column-m-10">
-                <form action="home/product">
+                <form action="/product">
                     <input class="btn btn-success" type="submit" value="Producten" />
                 </form>
                 <br>
-                <form action="home/user">
+                <form action="/user">
                     <input class="btn btn-success"  type="submit" value="Gebruikers" />
                 </form>
-                <form action="home/reviews">
+                <form action="/review">
                     <input class="btn btn-success" type="submit" value="Reviews" />
                 </form>
                 <br>
-                <form action="home/questions">
+                <form action="/question">
                     <input class="btn btn-success"  type="submit" value="Vragen" />
                 </form>
             </div>
