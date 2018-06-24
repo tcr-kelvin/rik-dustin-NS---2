@@ -12,7 +12,12 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         //Eloquent::ungard();
+<<<<<<< HEAD
 //        $this->call(UsersTableSeeder::class);
 //        $this->call(ProductsTableSeeder::class);
+=======
+        //$this->call(UsersTableSeeder::class);
+        //$this->call(ProductsTableSeeder::class);
+>>>>>>> parent of 1de30b0... jwf
     }
 }
