@@ -9,7 +9,7 @@
             <div class="container">
                 <h1>Support</h1>
 
-                <h2>FAQ</h2>
+                <h2>Vragen</h2>
                 <ul>
                     <li>Hebben jullie gratis telefoons</li>
                     <li>Mijn telefoon is stuk. Wat nu?</li>

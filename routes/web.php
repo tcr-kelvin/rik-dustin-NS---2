@@ -44,12 +44,13 @@ Route::get('/content', function () {
     return view('layout.content',compact('products'));
 });
 Route::get('/support', function () {
+    $questions = DB::table('questions')->get();
     return view('layout.support');
 });
 
 Route::resource('user', 'UserController');
 Route::resource('product', 'ProductsController');
-
+Route::resource('question', 'QuestionsController');
 
 
 Auth::routes();
