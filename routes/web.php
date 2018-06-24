@@ -79,6 +79,11 @@ Route::get('/home/user',function () {
     return view('user',compact('users', 'AutocompleteController@index'));
 });
 
+Route::get('/home/simonly',function () {
+    $simonlys = DB::table('simonlys')->get();
+    return view('simonly',compact('simonlys'));
+});
+
 
 Route::get('/home/product', function () {
     $products = DB::table('products')->get();
