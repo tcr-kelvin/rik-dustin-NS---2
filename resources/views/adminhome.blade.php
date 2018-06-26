@@ -41,6 +41,10 @@
                 <form action="/simonly">
                     <input class="btn btn-success"  type="submit" value="Simonly" />
                 </form>
+                <br>
+                <form action="/prepaid">
+                    <input class="btn btn-success"  type="submit" value="Prepaid" />
+                </form>
             </div>
         </div>
 
