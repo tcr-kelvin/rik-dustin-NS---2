@@ -29,7 +29,7 @@
                 </div>
                 <table class="table table-bordered">
                     <div class="form-group">
-                    <input type="text" name="country_name" id="country_name" class="form-control input-lg" placeholder="Enter Country Name" />
+                    <input type="text" name="country_name" id="country_name" class="form-control input-lg" placeholder="Enter user Name" />
                         <div id="countryList">
 
                         </div>
