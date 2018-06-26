@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use App\Simonly;
 use Illuminate\Http\Request;
 use App\Http\Requests\SimonlysStorePost;
 
