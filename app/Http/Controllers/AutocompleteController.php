@@ -42,9 +42,7 @@ class AutocompleteController extends Controller
             <td><a href="#">'.$row->password.'</a></td>
             <td><a href="#">'.$row->admin.'</a></td>
             <td>
-                                <a href="'{{route('user.show', $value->id)}}'" class="btn btn-info btn-sm">
-                                    <i href="" class="fas fa-search"> </i>
-                                </a>
+                               
            
                                
                              
@@ -54,6 +52,7 @@ class AutocompleteController extends Controller
             $output .= '</table></div>';
             echo $output;
         }
+
     }
 
 }
