@@ -7,7 +7,7 @@
 
 <main>
     <section class="section top-toestellen">
-        <h2 class="section-title">{{$_GET['alias']}}</h2>
+        <h2 class="section-title">Toestellen</h2>
             <div class="row-box">
             @foreach($products as $product)
                 <div class="item-box">

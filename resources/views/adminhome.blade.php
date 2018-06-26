@@ -29,12 +29,17 @@
                 <form action="/user">
                     <input class="btn btn-success"  type="submit" value="Gebruikers" />
                 </form>
+                <br>
                 <form action="/review">
                     <input class="btn btn-success" type="submit" value="Reviews" />
                 </form>
                 <br>
                 <form action="/question">
                     <input class="btn btn-success"  type="submit" value="Vragen" />
+                </form>
+                <br>
+                <form action="/simonly">
+                    <input class="btn btn-success"  type="submit" value="Simonly" />
                 </form>
             </div>
         </div>
