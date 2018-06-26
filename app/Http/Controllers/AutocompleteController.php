@@ -52,7 +52,7 @@ class AutocompleteController extends Controller
             $output .= '</table></div>';
             echo $output;
         }
-        
+
     }
 
 }
