@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreatesimonlyTable extends Migration
+class CreateSimonlysTable extends Migration
 {
     /**
      * Run the migrations.
@@ -17,6 +17,9 @@ class CreatesimonlyTable extends Migration
             $table->increments('id');
             $table->string('name',100);
             $table->longText('description');
+            $table->string('sms',40);
+            $table->string('callmins',40);
+            $table->string('data',40);
             $table->string('price',10);
             $table->timestamps();
         });
@@ -29,6 +32,6 @@ class CreatesimonlyTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('simonly');
+        Schema::dropIfExists('simonlys');
     }
 }

@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use App\Prepaid;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use App\Http\Requests\PrepaidsStorePost;
+
 
 class PrepaidsController extends Controller
 {
