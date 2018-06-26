@@ -53,6 +53,7 @@ Route::resource('product', 'ProductsController');
 Route::resource('question', 'QuestionsController');
 Route::resource('review', 'ReviewsController');
 Route::resource('prepaid', 'PrepaidsController');
+Route::resource('simonly', 'SimonlysController');
 
 
 Auth::routes();
