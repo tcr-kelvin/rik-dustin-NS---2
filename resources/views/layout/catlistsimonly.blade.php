@@ -14,7 +14,7 @@
                         <h4 class="item-title">{{$simonly->name}}</h4>
                         <div style="height: 50px;"></div>
                         <p class="item-info">{{substr($simonly->description,0,100).'...'}} | <b>{{$simonly->sms}}SMSJES</b> | <b> {{$simonly->data}}MB</b> | <b>{{$simonly->callmins}}MINS</b>|</p>
-                        <a class="item-button teleking-button" style="float:inherit;"href="product/{{$simonly->id}}"><strong>€{{$simonly->price}} </strong>- Meer info</a>
+                        <a class="item-button teleking-button" style="float:inherit;"href="simonly/{{$simonly->id}}"><strong>€{{$simonly->price}} </strong>- Meer info</a>
                     </div>
                 @endforeach
             </div>
