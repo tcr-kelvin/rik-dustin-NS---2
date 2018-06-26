@@ -10,8 +10,8 @@
         <nav class="primary-nav">
             <ul>
                 <li> <a href="/">Home</a> </li>
-                <li> <a href="catlisting?alias=Sim-Only">Sim-Only</a> </li>
-                <li> <a href="catlisting?alias=Toestellen%20en%20Abonnementen">Toestellen en Abonnementen</a> </li>
+                <li> <a href="catlistsimonly?alias=Sim-Only">Sim-Only</a> </li>
+                <li> <a href="catlisting?alias=Toestellen%20en%20Abonnementen">Toestellen</a> </li>
                 <li> <a href="support">Support</a> </li>
             </ul>
             <ul class="navbar-nav ml-auto">
