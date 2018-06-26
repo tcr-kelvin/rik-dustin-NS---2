@@ -24,6 +24,10 @@ Route::get('/catlisting', function () {
     $products = DB::table('products')->get();
     return view('layout.catlisting',compact('products'));
 });
+Route::get('/catlistsimonly', function () {
+    $simonlys = DB::table('simonlys')->get();
+    return view('layout.catlistsimonly',compact('simonlys'));
+});
 
 
 Route::get('/simonly', function () {
