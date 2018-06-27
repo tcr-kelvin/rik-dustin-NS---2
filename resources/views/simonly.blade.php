@@ -41,7 +41,7 @@
                             <td>{{$simonly->name}}</td>
                             <td>{{substr($simonly->description,0,100).'...'}}</td>
                             <td>{{$simonly->sms}}</td>
-                            <td>{{$simonly->calmins}}</td>
+                            <td>{{$simonly->callmins}}</td>
                             <td>{{$simonly->data}}MB</td>
                             <td>{{$simonly->price}}</td>
                             <td>

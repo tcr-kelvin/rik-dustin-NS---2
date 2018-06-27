@@ -14,9 +14,9 @@
                     <h4 class="pull-right teleking-fakebutton">€{{$simonly->price}}</h4>
                     <p class="pull-left content-text">
                         {{$simonly->description}} -
-                        {{$simonly->sms}} SMSjes-
-                        {{$simonly->description}} Bel minuten-
-                        {{$simonly->description}}MB Data
+                      <b>  {{$simonly->sms}} SMSjes-</b> -
+                       <b> {{$simonly->callmins}} Bel minuten-</b> -
+                        <b>     {{$simonly->data}}MB Data</b>
                     </p>
                     <div class="content-button-wrap">
                         <a class="add-to-cart content-button teleking-button pull-right" href="/winkelwagen" data-name="{{$simonly->name}}" data-price="{{$simonly->price}}">+ Winkelwagen</a>
