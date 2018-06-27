@@ -10,7 +10,7 @@
         <h2 class="section-title">Toestellen</h2>
             <div class="row-box">
             @foreach($products as $product)
-                <div class="item-box">
+                <div class="item-box" >
                     <h4 class="item-title">{{$product->name}}</h4>
                     <img class="photo-box" src="{{$product->imagepath}}">
                     <p class="item-info">{{substr($product->description,0,100).'...'}}</p>

@@ -25,12 +25,18 @@
         <meta name="theme-color" content="#ffffff">
         <title>TeleKing 📱👑</title>
         <!-- Styles -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link rel="stylesheet" href="css/app.css">
         <link rel="stylesheet" href="css/style.css">
         {{--JS--}}
+        <script src="js/app.js"></script>
 
     </head>
+
     <body>
+    <script>
+        AOS.init();
+    </script>
         @yield('content')
     </body>
 </html>

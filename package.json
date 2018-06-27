@@ -21,6 +21,7 @@
     },
     "dependencies": {
         "@fortawesome/fontawesome": "^1.1.8",
-        "@fortawesome/fontawesome-free-webfonts": "^1.0.9"
+        "@fortawesome/fontawesome-free-webfonts": "^1.0.9",
+        "aos": "^2.3.2"
     }
 }
